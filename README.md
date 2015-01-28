@@ -16,7 +16,9 @@ Most importantly I learned a little bit more about Apple’s UIKit. To my surpri
 
 #ToDos
 Upgrade the game to a standard deck
+
 Add animations for wins
+
 Add ability for 2 players
 
 
