@@ -14,7 +14,7 @@ I also learned to navigate Xcode’s panel. Finding it useful to change element 
 
 Most importantly I learned a little bit more about Apple’s UIKit. To my surprise it’s huge! I used and learned about a couple of them like the UIButton, UIImage, UIImageView, UIViewController. While doing this I also got to learn more about Swift coding and how the code is written and works. 
 
-#ToDos
+#To Dos
 Upgrade the game to a standard deck
 
 Add animations for wins
