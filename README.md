@@ -24,4 +24,4 @@ Add ability for 2 players
 
 
 
-
+[Absolute README link](http://gordonsitu.com/war/)
