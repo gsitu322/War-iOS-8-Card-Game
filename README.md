@@ -16,6 +16,6 @@ You can read more about my experience with Xcode, Swift, and this game on my [bl
 
 
 #To Dos
--Upgrade the game to a standard deck
--Add animations for wins
--Add ability for 2 players
+- Upgrade the game to a standard deck
+- Add animations for wins
+- Add ability for 2 players
