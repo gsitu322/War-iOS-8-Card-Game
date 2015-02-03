@@ -1,27 +1,22 @@
-# War 
-This code was written with the intent of learn more about Xcode, swift programming, and learning best practices for application development. 
+#War Game App
+iOS 8 War Card App created with Swift
 
-When I saw this project I giggled to myself remembering I used to play it when I was young. I also remembered playing this game with a friend recently. “This game is stupid!” was what we thought. But we still played though it and it was quite entertaining. 
+#Introduction
+War is a card game played with two people. A deck of cards is split bewtween two players and each player will flip a card. The player with the higher card wins the cards on the table. If there is a tie, the players continue flipping till one player has the higher card. In this variation the card values go from ace being the lowest to king being the highest. 
 
-#Gameplay
-This is a one player game, player vs computer. When the player clicks the deal button the cards are flipped and whichever player has the higher card will win.
-The game will go on forever until you want to stop. 
+The game of war is finally over when one player receives all the cards making him the victor.
 
-#What I learned
-While writing this code I learned how to use the auto layout feature of Xcode to layout the components of the game board. It was quite interesting how easy it was to make the app compatible for both landscape and portrait mode. 
+#How It works
+When the app is initalized it takes us stright to the play screen. Behind the scenes we initalize all the variables such as the card back images, the list of cards we can choose from(using a subset of a 52 card deck), player and enemy lables, and player and enemny scores. We have also created a button "DEAL" to start the round. 
 
-I also learned to navigate Xcode’s panel. Finding it useful to change element properties, adding elements and assets, finding the code to modify, and building the layout with views. I’m sure there are more tips and tricks to navigate, but I will find those at a later time.
+When the "DEAL" button is pressed a random number generator is used to select a card for both players. Using this number we find the corresponding card to show on the view. Then simply the two numbers are compared to see who has the larger number. The player with the larger number wins the round. The score is then relected from the controller to the view. 
 
-Most importantly I learned a little bit more about Apple’s UIKit. To my surprise it’s huge! I used and learned about a couple of them like the UIButton, UIImage, UIImageView, UIViewController. While doing this I also got to learn more about Swift coding and how the code is written and works. 
+#Read More 
+You can read more about my experience with Xcode, Swift, and this game on my [blog](http://gordonsitu.com/war/)
+
 
 #To Dos
-Upgrade the game to a standard deck
-
-Add animations for wins
-
-Add ability for 2 players
-
-
-
-
+-Upgrade the game to a standard deck
+-Add animations for wins
+-Add ability for 2 players
 
